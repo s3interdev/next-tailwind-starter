@@ -1,10 +1,10 @@
-import Meta from '../lib/meta';
+import Meta from '../lib/Meta';
 
 const Layout = ({ children }) => {
 	return (
 		<>
 			<Meta />
-			<div>{children}</div>
+			<main>{children}</main>
 		</>
 	);
 };
