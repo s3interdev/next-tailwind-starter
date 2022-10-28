@@ -1,4 +1,4 @@
-const NavigationFooter = () => {
+const Footer = () => {
 	const currentYear = new Date().getFullYear();
 
 	return (
@@ -8,4 +8,4 @@ const NavigationFooter = () => {
 	);
 };
 
-export default NavigationFooter;
+export default Footer;
