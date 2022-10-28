@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
-import NavigationFooter from './navigation-footer';
-import NavigationHeader from './navigation-header';
+import Footer from './footer';
+import Header from './header';
 
 const Layout = ({ title, children }) => {
 	return (
@@ -25,7 +25,7 @@ const Layout = ({ title, children }) => {
 			<div className="flex min-h-screen flex-col justify-between">
 				{/** header section start start */}
 				<header>
-					<NavigationHeader />
+					<Header />
 				</header>
 				{/** header section start end */}
 
@@ -35,7 +35,7 @@ const Layout = ({ title, children }) => {
 
 				{/** footer section start start */}
 				<footer>
-					<NavigationFooter />
+					<Footer />
 				</footer>
 				{/** footer section start start */}
 			</div>
