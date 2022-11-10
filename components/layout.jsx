@@ -1,7 +1,6 @@
 import Head from 'next/head';
 
-import Footer from './footer';
-import Header from './header';
+import { Footer, Header } from './index';
 
 const Layout = ({ title, children }) => {
 	return (
@@ -14,11 +13,7 @@ const Layout = ({ title, children }) => {
 					content="Automate building of websites and web application projects using Next.JS and Tailwind CSS"
 				/>
 				<link rel="icon" type="image/png" href="/favicon.png" />
-				<title>
-					{title
-						? title + ' | Superior Software Solutions'
-						: 'Superior Software Solutions'}
-				</title>
+				<title>{title ? title + ' | S3' : 'S3'}</title>
 			</Head>
 
 			{/** body section start */}
